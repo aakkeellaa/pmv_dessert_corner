@@ -1,0 +1,64 @@
+		header
+		{
+			background-color: darkgrey;
+			padding: 5px;
+			text-align: center;
+			font-size: 25px;
+			color: darkgreen;
+		}
+
+		ul 
+		{
+			list-style-type: none;
+			padding: 2px;
+
+		}
+
+		ul li
+		{
+			display: inline;
+		}
+
+		a:link
+		{
+			color: lawngreen;
+			background-color: hotpink;
+			text-decoration: none;
+		}
+
+		a:visited
+		{
+			color: darkcyan;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover, a:active
+		{
+			color: red;
+			background-color: white;
+			text-decoration: underline;
+		}
+		h1
+		{
+			text-align: center;
+			font-family: georgia;
+			font-size: 35px;
+			text-shadow: 2px 3px 5px red;
+		}
+
+		footer
+		{
+			text-align: center;
+			background-color: black;
+			color: white;
+			font-size: 25px;
+			font-style: italic;
+		}
+		h2
+		{
+			text-align: center;
+			color: mediumpurple;
+			font-size: 45px;
+			text-shadow: 3px 3px 5px horpink;
+		}

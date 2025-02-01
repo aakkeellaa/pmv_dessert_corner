@@ -1,0 +1,191 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: sandybrown;
+}
+header
+{
+  background-color: #572222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+
+}
+img
+{
+  width: 220px;
+  padding-bottom: 10px;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li
+{
+  display: inline;
+  text-align: center;
+  font-size: 17px;
+}
+li a
+{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+li a:visited
+{
+  text-decoration: none;
+  color: white;
+}
+li a:hover
+{
+  text-decoration: underline 5px;
+  color: darkkhaki;
+}
+section
+{
+  padding: 5px 15% 70px;
+}
+section h2
+{
+  text-align: center;
+  margin: 5px;
+}
+.center-text h2 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: 800;
+    color: black;
+    margin: 0;
+    text-shadow: 2px 3px 5px red;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+.row
+{
+  position: relative;
+
+}
+.row img
+{
+  width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+  position: static;
+}
+.row img:hover
+{
+  transform: scale(1.1);
+}
+.row h4
+{
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 4px;
+}
+
+.row h4:hover
+{
+  color: black;
+}
+
+.row h5
+{
+  color: black;
+  font-size: 18px;
+  font-weight: 100px;
+  margin: 0;
+}
+.top
+{
+  position: absolute;
+  height: 30px;
+  width: 60px;
+  top: 20px;
+  left: 0;
+  color: white;
+  background-color: saddlebrown;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.contact
+{
+  display: grid;
+  text-align: center;
+  background-color: #572222;
+}
+.contact-box h4
+{
+  margin-bottom: 24px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.contact-box h5
+{
+  font-size: 18px;
+  font-weight: 600px;
+  color: white;
+  text-align: center;
+}
+.social
+{
+  display: flex;
+  margin-top: 28px;
+  text-align: center;
+  justify-content: center;
+}
+.social i
+{
+  height: 37px;
+  width: 37px;
+  background: transparent;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 18px;
+  color: white;
+  justify-content: center;
+}
+.social a
+{
+  text-decoration: none;
+}
+.feedback-button
+{
+  background-color: saddlebrown;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.feedback-button:hover
+{
+  background-color: darkgoldenrod;
+}

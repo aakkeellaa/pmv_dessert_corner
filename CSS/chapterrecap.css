@@ -1,0 +1,64 @@
+body
+{
+	background-image: url("images/bg3.jpg");
+}
+header
+{
+	font-weight: bold;
+	text-align: center;
+	background-color: orange;
+	color: black;
+	padding: 5px;
+}
+li
+{
+	display: inline;
+}
+ul
+{
+	list-style-type: none;
+}
+a:link
+{
+	text-decoration: none;
+	color: hotpink;
+	background-color: mediumpurple;
+}
+a:visited
+{
+	text-decoration: none;
+	color: hotpink;
+	background-color: mediumpurple;
+}
+a:hover, a:active
+{
+	background-color: seagreen;
+	color: white;
+	text-decoration: none;
+}
+footer
+{
+	text-align: center;
+			background-color: black;
+			color: white;
+			font-size: 25px;
+			font-style: italic;
+}
+img
+{
+	border-radius: 20px;
+	width: 650px;
+}
+h2
+{
+	text-shadow: 2px 3px 5px red;
+}
+button:hover
+{
+	background-color: blue;
+}
+input
+{
+	background-color: brown;
+}
+

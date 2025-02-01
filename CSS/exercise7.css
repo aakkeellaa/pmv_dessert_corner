@@ -1,0 +1,25 @@
+table, tr, th
+{
+	border: 3px solid maroon;
+	border-collapse: collapse;
+}
+th,td
+{
+	padding: 50px;
+}
+th
+{
+	background-color: khaki;
+	font-size: 30px;
+	color: deeppink;
+}
+td
+{
+	background-color: palevioletred;
+	text-align: center;
+}
+p
+{
+	font-size: 15px;
+}
+
